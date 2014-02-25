@@ -19,13 +19,13 @@ Plot a `CountryData` property for the whole world:
 
     CountryPlot3D["Population"]
 
-![world population](population.png)
+![world population](http://simonschmidt.github.io/Mathematica-CountryPlot/population.png)
 
 Or only for parts of the world:
 
     CountryPlot3D[{"Europe", "Africa", "Turkey"}, "Population"]
 
-![subset population](subsetPopulation.png)
+![subset population](http://simonschmidt.github.io/Mathematica-CountryPlot/subsetPopulation.png)
 
 Provide your own data:
 
@@ -36,14 +36,14 @@ Provide your own data:
       "ExtraCountries" -> "Europe",
       "ScaleHeight" -> False]
 
-![custom data](custom.png)
+![custom data](http://simonschmidt.github.io/Mathematica-CountryPlot/custom.png)
 
 Change projection:
 
     CountryPlot["PovertyFraction", 
       "CartographicProperty" -> {"SchematicPolygon", "LambertConic"}]
 
-![projection](projection.png)
+![projection](http://simonschmidt.github.io/Mathematica-CountryPlot/projection.png)
 
 ## Options
 
